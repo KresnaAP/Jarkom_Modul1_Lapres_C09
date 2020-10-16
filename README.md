@@ -1,6 +1,10 @@
 # Modul1_C09
+Kelompok C09
+- 05111840000028  M. Frediansyah Sinaga
+- 05111840000072  Kresna Adhi Pramana
 
 Praktikum Modul 1 berupa *Wireshark Filter Expression*.
+
 
 ## Soal
 Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
@@ -32,3 +36,18 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 
 ## Jawaban
+   1.
+   2.
+   3.
+   4.
+   5.
+   6.
+   7.
+   8.
+   9.
+   10.
+   11.
+   12.
+   13.
+   14.
+   15.
