@@ -36,18 +36,18 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 
 ## Jawaban
-   1.
-   2.
-   3.
-   4.
-   5.
-   6.
-   7.
-   8.
-   9.
-   10.
-   11.
-   12.
-   13.
-   14.
-   15.
+   1. http.host == testing.mekanisme.me, follow HTTP stream, dan cek bagian server. Webserver yang digunakan yaitu nginx/1.14.0 (Ubuntu)
+   2. http.host contains "dpr"
+   3. http.host == ppid.dpr.go.id && http.request.method == POST. Username yang didapatkan yaitu "10pemuda" dan password yang digunakan yaitu "guncangdunia"
+   4. http.authbasic
+   5. http.host contains "aku.pengen.pw"
+   6. ftp-data dan string filter “Answer.zip” untuk zip, ftp-data dan string filter “zipkey.txt” untuk key
+   7. ftp-data contains "Yes.pdf"
+   8. 
+   9. ftp.request.command == USER || ftp.request.command == PASS
+   10. frame contains "application/pdf"
+   11. port 21
+   12. src port 80
+   13. dst port 443
+   14. src host 192.168.1.3, ip 192.168.1.3
+   15. dst host monta.if.its.ac.id
