@@ -38,48 +38,48 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 ## Jawaban
    1. http.host == testing.mekanisme.me, follow HTTP stream, dan cek bagian server. Webserver yang digunakan yaitu nginx/1.14.0 (Ubuntu)
    ![Foto 1a](img/1a.PNG)
-   ![Foto 1b](img/1b.png)
+   ![Foto 1b](img/1b.PNG)
    
    2. http.host contains "dpr"
    
    3. http.host == ppid.dpr.go.id && http.request.method == POST. Username yang didapatkan yaitu "10pemuda" dan password yang digunakan yaitu "guncangdunia"
-   ![Foto 3](img/3.png)
+   ![Foto 3](img/3.PNG)
    
    4. http.authbasic
-   ![Foto 4a](img/4a.png)
-   ![Foto 4b](img/4b.png)
+   ![Foto 4a](img/4a.PNG)
+   ![Foto 4b](img/4b.PNG)
    
    5. http.host contains "aku.pengen.pw"
    
    6. ftp-data, string filter “Answer.zip”, follow tcp stream, dan save as raw untuk zip, ftp-data, string filter “zipkey.txt”, follow tcp stream, dan save as raw untuk key.
-   ![Foto 6a](img/6a.png)
-   ![Foto 6b](img/6b.png)
-   ![Foto 6c](img/6c.png)
-   ![Foto 6d](img/6d.png)
-   ![Foto 6e](img/6e.png)
-   ![Foto 6f](img/6f.png)
-   ![Foto 6g](img/6g.png)
+   ![Foto 6a](img/6a.PNG)
+   ![Foto 6b](img/6b.PNG)
+   ![Foto 6c](img/6c.PNG)
+   ![Foto 6d](img/6d.PNG)
+   ![Foto 6e](img/6e.PNG)
+   ![Foto 6f](img/6f.PNG)
+   ![Foto 6g](img/6g.PNG)
    
    7. ftp-data contains "Yes.pdf"
    
    8. 
    
    9. ftp.request.command == USER || ftp.request.command == PASS. Username yang digunakan yaitu "dhana" dan password yang digunakan yaitu "dhana123"
-   ![Foto 9](img/9.png)
+   ![Foto 9](img/9.PNG)
    
    10. frame contains "application/pdf"
    
    11. port 21
-   ![Foto 11](img/11.png)
+   ![Foto 11](img/11.PNG)
    
    12. src port 80
-   ![Foto 12](img/12.png)
+   ![Foto 12](img/12.PNG)
    
    13. dst port 443
-   ![Foto 13](img/13.png)
+   ![Foto 13](img/13.PNG)
    
    14. src host 192.168.1.3, ip 192.168.1.3
-   ![Foto 14](img/14.png)
+   ![Foto 14](img/14.PNG)
    
    15. dst host monta.if.its.ac.id
-   ![Foto 15](img/15.png)
+   ![Foto 15](img/15.PNG)
