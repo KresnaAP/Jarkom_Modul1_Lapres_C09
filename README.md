@@ -41,10 +41,10 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
    3. http.host == ppid.dpr.go.id && http.request.method == POST. Username yang didapatkan yaitu "10pemuda" dan password yang digunakan yaitu "guncangdunia"
    4. http.authbasic
    5. http.host contains "aku.pengen.pw"
-   6. ftp-data dan string filter “Answer.zip” untuk zip, ftp-data dan string filter “zipkey.txt” untuk key
+   6. ftp-data, string filter “Answer.zip”, follow tcp stream, dan save as raw untuk zip, ftp-data, string filter “zipkey.txt”, follow tcp stream, dan save as raw untuk key.
    7. ftp-data contains "Yes.pdf"
    8. 
-   9. ftp.request.command == USER || ftp.request.command == PASS
+   9. ftp.request.command == USER || ftp.request.command == PASS. Username yang digunakan yaitu "dhana" dan password yang digunakan yaitu "dhana123"
    10. frame contains "application/pdf"
    11. port 21
    12. src port 80
