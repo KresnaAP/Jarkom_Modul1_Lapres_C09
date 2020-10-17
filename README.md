@@ -37,7 +37,7 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 ## Jawaban
    1. http.host == testing.mekanisme.me, follow HTTP stream, dan cek bagian server. Webserver yang digunakan yaitu nginx/1.14.0 (Ubuntu)
-   ![Foto 1a](img/1a.png)
+   ![Foto 1a](img/1a.PNG)
    ![Foto 1b](img/1b.png)
    
    2. http.host contains "dpr"
